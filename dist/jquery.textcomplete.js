@@ -823,8 +823,8 @@ if (typeof jQuery === 'undefined') {
     getCaretPosition: function () {
       var position = this._getCaretRelativePosition();
       var offset = this.$el.offset();
-      position.top += offset.top;
-      position.left += offset.left;
+      //position.top += offset.top;
+      //position.left += offset.left;
       return position;
     },
 
